@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Ubuntu:ital@1&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Ubuntu:ital@1&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;   
+}
+.container {
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.image img{
+    width: 100%;
+    border-radius: 15px;
+}
+.centent {
+    padding: 15px 5px;
+}
+.centent h1{
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.centent p{
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+.liste1 {
+    padding: 15px 30px;
+    background-color: hsl(330, 64%, 95%);
+}
+.liste1 ul h3{
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+.liste1 ul  li{
+    padding: 5px 20px;
+    margin: 10px 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+.liste1 li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.liste2{
+    padding: 25px 0;
+}
+.liste2 ul h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.liste2 ul li{
+    padding: 6px;
+    margin: 10px 30px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+
+}
+.liste2 li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.liste3 ol h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    padding: 25px 0;
+}
+.liste3 ol li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    padding: 10px ;
+    margin: 0 30px;
+}
+.liste3{
+    padding: 0 0 25px 0 ;
+}
+.liste3 li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.container h2{
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    padding: 25px 0 0 0;  
+}
+.container p{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    padding: 10px 0;
+    font-weight: 400;
+}
+.liste4{
+   margin: 0 50px;
+}
+.liste4 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.liste4 ul li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+.liste4 ul p{
+    color: hsl(14, 45%, 36%);
+    margin: 0 150px 0 0;
+}
+
+
+.liste5{
+    margin: 0 50px;
+}
+ .liste5 ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+}
+ .liste5 ul li{
+     color: hsl(30, 10%, 34%);
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+ .liste5 ul p{
+     color: hsl(14, 45%, 36%);
+     margin: 0 185px 0 0;
+}
+
+.liste7{
+    margin: 0 50px;
+}
+ .liste7 ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+}
+ .liste7 ul li{
+     color: hsl(30, 10%, 34%);
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+.liste7 ul p{
+     color: hsl(14, 45%, 36%);
+     margin: 0 175px 0 0;
+}
+
+.liste6{
+    margin: 0 50px;
+}
+.liste6 ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+}
+.liste6 ul li{
+     color: hsl(30, 10%, 34%);
+     font-family: "Outfit", sans-serif;
+     font-weight: 400;
+}
+.liste6 ul p{
+     color: hsl(14, 45%, 36%);
+     margin: 0 175px 0 0;
+}
